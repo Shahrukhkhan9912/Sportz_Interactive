@@ -1,0 +1,99 @@
+@font-face {
+    font-family: "Archivo Std Bold";
+    src: url('./Font/Archivo-Bold.ttf') format('ttf'),
+        url('./Font/Archivo-Bold.ttf') format('ttf');
+    font-weight: bold;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "Archivo Std SemiBold";
+    src: url('./Font/Archivo-SemiBold.ttf') format('ttf'),
+        url('./Font/Archivo-SemiBold.ttf') format('ttf');
+    font-weight: 600;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "Archivo Std Medium";
+    src: url('./Font/Archivo-Medium.ttf') format('ttf'),
+        url('./Font/Archivo-Medium.ttf') format('ttf');
+    font-weight: 500;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "Archivo Std Regular";
+    src: url('./Font/Archivo-Regular.ttf') format('ttf'),
+        url('./Font/Archivo-Regular.ttf') format('ttf');
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  
+  /*new font start*/
+$font-family1: 'Archivo Std Bold';
+$font-family2: 'Archivo Std SemiBold';
+$font-family3: 'Archivo Std Medium';
+$font-family4: 'Archivo Std Regular';
+/*new font end*/
+
+//font family function
+$fontFamily:(
+  "family1" $font-family1,
+  "family2" $font-family2,
+  "family3" $font-family3,
+  "family4" $font-family4,
+);
+
+@each $i in $fontFamily{
+	.font-#{nth($i, 1)} {
+		font-family: nth($i, 2);
+	}	
+}
+
+
+// colors variables
+$col1:#FFFFFF;
+$col2:#002947;
+$col3:#E4E4E4;
+$col4:#024B5C;
+$col5:#E47C29;
+$col6:#757575; 
+
+
+// color classes
+$colours: (
+  "color1" $col1,
+  "color2" $col2,
+  "color3" $col3,
+  "color4" $col4,
+  "color5" $col5,
+  "color6" $col6,
+);
+
+// Color Function
+@each $i in $colours {
+    //bg-color1
+    .bg-#{nth($i,1)} {
+        background-color: nth($i, 2) !important;
+    }
+    //text-color1
+    .text-#{nth($i, 1)}{
+        color:nth($i, 2) !important;
+    }
+  }
+
+  $fw400:400;
+  $fw500:500;
+  $fw600:600;
+  
+  $fontWeight:(
+    "fw-500" $fw400,
+    "fw-600" $fw500,
+    "fw-700" $fw600,
+  );
+  
+  @each $i in $fontWeight{
+    .#{nth($i, 1)} {
+      font-weight: nth($i, 2);
+    }	
+  }
+  

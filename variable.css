@@ -1,0 +1,101 @@
+@font-face {
+  font-family: "Archivo Std Bold";
+  src: url("./Font/Archivo-Bold.ttf") format("ttf"), url("./Font/Archivo-Bold.ttf") format("ttf");
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Archivo Std SemiBold";
+  src: url("./Font/Archivo-SemiBold.ttf") format("ttf"), url("./Font/Archivo-SemiBold.ttf") format("ttf");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Archivo Std Medium";
+  src: url("./Font/Archivo-Medium.ttf") format("ttf"), url("./Font/Archivo-Medium.ttf") format("ttf");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Archivo Std Regular";
+  src: url("./Font/Archivo-Regular.ttf") format("ttf"), url("./Font/Archivo-Regular.ttf") format("ttf");
+  font-weight: 400;
+  font-style: normal;
+}
+/*new font start*/
+/*new font end*/
+.font-family1 {
+  font-family: "Archivo Std Bold";
+}
+
+.font-family2 {
+  font-family: "Archivo Std SemiBold";
+}
+
+.font-family3 {
+  font-family: "Archivo Std Medium";
+}
+
+.font-family4 {
+  font-family: "Archivo Std Regular";
+}
+
+.bg-color1 {
+  background-color: #FFFFFF !important;
+}
+
+.text-color1 {
+  color: #FFFFFF !important;
+}
+
+.bg-color2 {
+  background-color: #002947 !important;
+}
+
+.text-color2 {
+  color: #002947 !important;
+}
+
+.bg-color3 {
+  background-color: #E4E4E4 !important;
+}
+
+.text-color3 {
+  color: #E4E4E4 !important;
+}
+
+.bg-color4 {
+  background-color: #024B5C !important;
+}
+
+.text-color4 {
+  color: #024B5C !important;
+}
+
+.bg-color5 {
+  background-color: #E47C29 !important;
+}
+
+.text-color5 {
+  color: #E47C29 !important;
+}
+
+.bg-color6 {
+  background-color: #757575 !important;
+}
+
+.text-color6 {
+  color: #757575 !important;
+}
+
+.fw-500 {
+  font-weight: 400;
+}
+
+.fw-600 {
+  font-weight: 500;
+}
+
+.fw-700 {
+  font-weight: 600;
+}/*# sourceMappingURL=variable.css.map */
